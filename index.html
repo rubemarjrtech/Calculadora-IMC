@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="intro-container">
+                <h1>
+                    O que é uma Calculadora IMC?
+                </h1>
+                <p class="intro-text">
+                    Criado no século 19 pelo matemático Lambert Quételet, o Índice de Massa Corporal, conhecido pela sigla IMC,
+                    é um cálculo simples que permite medir se alguém está ou não com o peso ideal.
+                    Ele aponta se o peso está adequado ou se está abaixo ou acima do peso.
+                    O calculo é feito dividindo o peso (em quilogramas) pela altura ao quadrado (em metros).
+                </p>
+            </div>
+            <div class="main-container">
+                <h1>
+                    Calcule já o seu!
+                </h1>
+                <span>Basta inserir os dados requeridos abaixo e você obterá seu Índice de Massa Corporal.</span>
+                <label>Peso</label>
+                <input style="display:block" type="number" id="peso">
+                <label>Altura (utilize vírgula)</label>
+                <input style="display:block" type="number" id="altura">
+                <button id="botao">Calcular</button>
+                <div id="calculo"></div>
+                <div id="resultado"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
